@@ -1,21 +1,21 @@
 import React from "react";
-import "./App.css";
-import NavBar from "./components/Navbar/NavBar";
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
-import ItemCount from "./components/ItemCount/ItemCount";
+import "./style.css";
+import Navbar from "./components/header/NavBar";
+import ContainerCardItems from "./components/components item/ContainerCardItems";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import DetailsItem from "./components/components item/DetailsItem";
 
-const App = () => {
+function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <ItemListContainer greeting={"Bienvenidos"} />
-      <ItemCount
-        initial={1}
-        stock={10}
-        onAdd={(quantity) => console.log("Cantidad agregada ", quantity)}
-      />
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<ContainerCardItems />} />
+        <Route path="/items/:idItem" element={<DetailsItem />} />
+        <Route path="/category/:idCategory" element={<ContainerCardItems />} />
+      </Routes>
+    </BrowserRouter>
   );
-};
+}
 
 export default App;
