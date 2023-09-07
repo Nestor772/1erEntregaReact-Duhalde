@@ -12,7 +12,7 @@ const NavBar = () => {
       <nav className="containerItemList">
         <ItemListContainer
           itemUno="Botines"
-          itemDos="Pelotas"
+          itemDos="Pelota"
           itemTres="Guantes"
           itemCuatro="Canilleras"
         />

@@ -8,7 +8,7 @@ const ItemListContainer = (props) => {
         <Link to="category/Botines">{props.itemUno}</Link>
       </li>
       <li>
-        <Link to="category/Pelotas">{props.itemDos}</Link>
+        <Link to="category/Pelota">{props.itemDos}</Link>
       </li>
       <li>
         <Link to="category/Guantes">{props.itemTres}</Link>
