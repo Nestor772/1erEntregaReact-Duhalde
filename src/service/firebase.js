@@ -8,13 +8,13 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAnHL-cGBKKWezllL1it09vCgMBW_YuA3M",
-  authDomain: "loyal-optics-196905.firebaseapp.com",
-  projectId: "loyal-optics-196905",
-  storageBucket: "loyal-optics-196905.appspot.com",
-  messagingSenderId: "809902215639",
-  appId: "1:809902215639:web:1c217fb3c98adb2c417b92",
-  measurementId: "G-ZL9XKV8VWQ",
+  apiKey: "AIzaSyBI4GBnmO2APmbW3qtNR_R6-pel7NSuqnM",
+  authDomain: "ecommerceduhalde.firebaseapp.com",
+  projectId: "ecommerceduhalde",
+  storageBucket: "ecommerceduhalde.appspot.com",
+  messagingSenderId: "331832171559",
+  appId: "1:331832171559:web:35ae2e00b12e208e76c202",
+  measurementId: "G-5MEDGHJRTC",
 };
 
 // Initialize Firebase
